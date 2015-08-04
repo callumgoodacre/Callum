@@ -1,0 +1,29 @@
+{
+  "siteName": {
+    "value": "CallumExample"
+  },
+  "hostingPlanName": {
+    "value": "CallumExample"
+  },
+  "siteLocation": {
+    "value": "West Europe"
+  },
+  "sku": {
+    "value": "Free"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "siteMode": {
+    "value": "Limited"
+  },
+  "computeMode": {
+    "value": "0"
+  },
+  "subscriptionId": {
+    "value": "63eb58c4-332e-46dd-83ea-20d43f58a3b4"
+  },
+  "resourceGroup": {
+    "value": "CallumExample"
+  }
+}

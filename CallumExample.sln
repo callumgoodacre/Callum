@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallumExample", "CallumExample\CallumExample.csproj", "{9CA66F9F-5896-4510-BD30-FE66B357A1C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{5B70FA40-F02F-4C79-A802-F39F12A4F9CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{EEA99153-A152-4069-BB55-F97A90773E9C}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{3B9144DC-E1D5-431D-8B7B-E4411D61D703}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\CallumExample.json = PublishScripts\Templates\CallumExample.json
+		PublishScripts\Templates\CallumExample.param.dev.json = PublishScripts\Templates\CallumExample.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CA66F9F-5896-4510-BD30-FE66B357A1C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CA66F9F-5896-4510-BD30-FE66B357A1C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CA66F9F-5896-4510-BD30-FE66B357A1C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CA66F9F-5896-4510-BD30-FE66B357A1C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EEA99153-A152-4069-BB55-F97A90773E9C} = {5B70FA40-F02F-4C79-A802-F39F12A4F9CE}
+		{3B9144DC-E1D5-431D-8B7B-E4411D61D703} = {5B70FA40-F02F-4C79-A802-F39F12A4F9CE}
+	EndGlobalSection
+EndGlobal
